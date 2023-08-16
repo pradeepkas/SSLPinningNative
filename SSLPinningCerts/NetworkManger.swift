@@ -45,12 +45,14 @@ enum RequestHandler: String {
 class NetworkManger: NSObject {
     
     var session: URLSession?
+    let certificateFetch: LocalCertificate
     
-    override init() {
+    init(_ certificateFetch: LocalCertificate = LocalCertificateFetcher()) {
+        self.certificateFetch = certificateFetch
         super.init()
         self.session = URLSession(configuration: URLSessionConfiguration.default, delegate: self, delegateQueue: nil)
     }
-    
+        
     func getNewsAPI<T:Decodable>(_type: T.Type, handler: @escaping (Result<T, APIError>) -> Void ) {
                 
         guard let req = RequestHandler.getNews.makeRequest() else {
@@ -114,7 +116,7 @@ extension NetworkManger: URLSessionDelegate {
         // local and server data
         // evalutate the certificate
         let remoteCertData: NSData = SecCertificateCopyData(serverCertificate)
-        let localCertData: NSData = getLocalCertData()
+        let localCertData: NSData = certificateFetch.getLocalCertData()
         
         // compare both data
         if isServerTrust && remoteCertData.isEqual(to: localCertData as Data) {
@@ -127,11 +129,19 @@ extension NetworkManger: URLSessionDelegate {
         }
     }
     
+}
+
+
+protocol LocalCertificate {
+    func getLocalCertData() -> NSData
+}
+
+class LocalCertificateFetcher: LocalCertificate {
     
     func getLocalCertData() -> NSData {
         let pathToCertificate = Bundle.main.path(forResource: "sni.cloudflaressl.com", ofType: ".cer") ?? ""
         let data = NSData(contentsOfFile: pathToCertificate)
         return data! // can handle this but for now we are sure
     }
-    
+
 }
