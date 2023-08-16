@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B0CBDDA7-FE4A-4DF7-8340-F053F2BD5960"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7333971-8498-40FE-8C06-8DAA13E7BA05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSLPinningCerts/NetworkManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "urlSession(_:didReceive:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D34D158-02A0-4C58-8282-9ABCEF1735C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSLPinningCerts/NetworkManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getNewsAPI(_type:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D34D158-02A0-4C58-8282-9ABCEF1735C7 - ddd7f3337bca5209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SSLPinningCerts.NetworkManger.getNewsAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_type: &#x3c4;_0_0.Type, handler: (Swift.Result&lt;&#x3c4;_0_0, SSLPinningCerts.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SSLPinningCerts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pradeepkumar/Documents/SSLPinningCerts/SSLPinningCerts/NetworkManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "8D34D158-02A0-4C58-8282-9ABCEF1735C7 - 8b6d621e0c87fb76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SSLPinningCerts.NetworkManger.getNewsAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_type: &#x3c4;_0_0.Type, handler: (Swift.Result&lt;&#x3c4;_0_0, SSLPinningCerts.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SSLPinningCerts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pradeepkumar/Documents/SSLPinningCerts/SSLPinningCerts/NetworkManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98BA2E11-3B4C-4403-8FAE-7254ADF1B3DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSLPinningCerts/NetworkManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getNewsAPI(_type:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97BDC24B-9843-4CBD-83BE-08D9FDA97FBF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSLPinningCerts/NetworkManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getNewsAPI(_type:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97BDC24B-9843-4CBD-83BE-08D9FDA97FBF - 8b6d621e0c87fb91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SSLPinningCerts.NetworkManger.getNewsAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_type: &#x3c4;_0_0.Type, handler: (Swift.Result&lt;&#x3c4;_0_0, SSLPinningCerts.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SSLPinningCerts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pradeepkumar/Documents/SSLPinningCerts/SSLPinningCerts/NetworkManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "97BDC24B-9843-4CBD-83BE-08D9FDA97FBF - 8b6d621e0c87fb91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SSLPinningCerts.NetworkManger.getNewsAPI&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_type: &#x3c4;_0_0.Type, handler: (Swift.Result&lt;&#x3c4;_0_0, SSLPinningCerts.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SSLPinningCerts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pradeepkumar/Documents/SSLPinningCerts/SSLPinningCerts/NetworkManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C31F98C-38D4-4B02-B923-F24AF3BB6BE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSLPinningCerts/NetworkManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getNewsAPI(_type:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
